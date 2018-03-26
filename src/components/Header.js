@@ -10,7 +10,7 @@ class Header extends Component {
 	render() {
 		return (
 		  <div className="App-header">
-		    <h2>Discover Your Movie App!</h2>
+		    <h2>{this.props.text}</h2>
 		  </div>
 		);
 	}
